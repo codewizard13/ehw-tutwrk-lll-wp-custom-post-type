@@ -21,3 +21,6 @@ if (!defined('WPINC')) {
 define('LIL_VERSION', '1.0.0');
 define('LILDOMAIN', 'lil-post-types');
 define('LILPATH', plugin_dir_path(__FILE__));
+
+require_once( LILPATH . '/post-types/register.php');
+add_action( 'init', 'lil_register_business_type');
