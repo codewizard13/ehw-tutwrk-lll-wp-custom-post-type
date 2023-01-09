@@ -20,7 +20,8 @@ function lil_register_business_type() {
     'has_archive' => 'businesses',
     'rewrite' => array('has_front' => true),
     'menu_icon' => 'dashicons-building',
-    'supports' => array( 'title', 'editor', 'thumbnail')
+    'supports' => array( 'title', 'editor', 'thumbnail'),
+    'show_in_rest' => true // also makes gutenberg show up
   );
 
   register_post_type( 'business', $args);
