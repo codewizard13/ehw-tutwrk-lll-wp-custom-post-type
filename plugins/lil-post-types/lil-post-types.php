@@ -24,3 +24,4 @@ define('LILPATH', plugin_dir_path(__FILE__));
 
 require_once( LILPATH . '/post-types/register.php');
 add_action( 'init', 'lil_register_business_type');
+add_action('init', 'lil_register_event_type');
