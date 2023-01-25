@@ -51,3 +51,27 @@ function lil_register_event_type()
 
   register_post_type('event', $args);
 }
+
+function lil_register_prophetic_word_type()
+{
+
+  $labels = array(
+    'name' => __( 'Prophetic Words', LILDOMAIN),
+    'singular_name' => __( 'Prophetic Word', LILDOMAIN),
+    'archives' => __( 'Prophetic Words List', LILDOMAIN),
+    'add_new' => __( 'Add New Prophetic Word', LILDOMAIN),
+    'add_new_item' => __( 'Add New Prophetic Word', LILDOMAIN)
+  );
+
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'has_archive' => 'prophetic-word',
+    'rewrite' => array('has_front' => true),
+    'menu_icon' => 'dashicons-welcome-write-blog',
+    'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true
+  );
+
+  register_post_type('prophetic-word', $args);
+}
