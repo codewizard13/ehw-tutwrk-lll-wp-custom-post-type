@@ -19,7 +19,6 @@
 
 ### Course Description:
 
-
 <div>WordPress is a powerful content management system—but it shines with customization. For example, there are seven default post types, organized using built-in taxonomies like categories and tags. But you can display different types of content according to your own rules by creating custom post types and taxonomies. Best of all, you can customize these elements without a lot of code. In this course, Joe Casabona shows how to create new post types and taxonomies, create a theme-agnostic plugin to house them, and build templates that display the custom post types in effective ways. Plus, learn how to move your custom post types and taxonomies to existing themes to leverage them in current sites.</div>
           
 

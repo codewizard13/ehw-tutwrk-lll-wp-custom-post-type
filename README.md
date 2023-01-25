@@ -31,15 +31,25 @@
     
 ## Requires
 
-* WordPres installed
+* WordPress installed
 * Login to WordPress dashboard
 * Do all code in the wp-content folder
-    
-## COURSE INFO:
 
-- Platform: LinkedIn Learning
-- Course Name: Learning PowerShell
-- Course URL: https://www.linkedin.com/learning/learning-powershell
+### Course Details
+
+| Course Duration  | 2h 9m    |
+| ---------------- | -------- |
+| Experience Level | Advanced |
+| Released         | 8/8/2019 |
+
+### Course Description:
+
+<div>WordPress is a powerful content management system—but it shines with customization. For example, there are seven default post types, organized using built-in taxonomies like categories and tags. But you can display different types of content according to your own rules by creating custom post types and taxonomies. Best of all, you can customize these elements without a lot of code. In this course, Joe Casabona shows how to create new post types and taxonomies, create a theme-agnostic plugin to house them, and build templates that display the custom post types in effective ways. Plus, learn how to move your custom post types and taxonomies to existing themes to leverage them in current sites.</div>
+          
+
+### Skills Covered
+
+- [WordPress](https://www.linkedin.com/learning/search?keywords=WordPress)
 
 ### Instructor
 
@@ -71,7 +81,7 @@
   .author-info h4 { color: gray; font-weight: 300; margin: 0.4em 0; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 </style>
 
-<div class="author-profile">
+<section class="author-profile">
   <div class="author-img">
     <img
       src="https://media.licdn.com/dms/image/C4E0DAQHDPO3sG5WoTg/learning-author-crop_200_200/0/1598473178222?e=1675285200&v=beta&t=54Qk8BKG-GnfTuXx4uFUbiY39jrPUIx5FAiUje7Q-BA"
@@ -82,22 +92,4 @@
     <h3><a href="https://www.linkedin.com/learning/instructors/joe-casabona" target="_blank">Joe Casabona</a></h3>
     <h4>Course Developer, Founder of Creator Courses</h4>
   </div>
-</div>
-### Course Details
-
-- Course Duration: 1h 23m
-- Experience Level: Beginner
-- Updated: 2/14/2020
-
-### Course Description:
-
-
-<div>What is PowerShell? PowerShell is a powerful language used for scripting and automation for your IT Infrastructure. In this short course, author Matt Hester provides an overview of the most current release, PowerShell 5.0, including how to read the PowerShell language and scripts, get help, and use cmdlets.<br><br>
-
-Matt then dives into PowerShell's functions and What If statements, working with output, and coding in the Integrated Scripting Environment (ISE). The course wraps up with some tips on using PowerShell for both on-premises and cloud deployments involving Office 365 and Azure.</div>
-          
-
-### Skills Covered
-
-- [Powershell](https://www.linkedin.com/learning/search?keywords=Powershell)
-
+</section>
