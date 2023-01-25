@@ -71,7 +71,7 @@
   .author-info h4 { color: gray; font-weight: 300; margin: 0.4em 0; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 </style>
 
-<section class="author-profile">
+<div class="author-profile">
   <div class="author-img">
     <img
       src="https://media.licdn.com/dms/image/C4E0DAQHDPO3sG5WoTg/learning-author-crop_200_200/0/1598473178222?e=1675285200&v=beta&t=54Qk8BKG-GnfTuXx4uFUbiY39jrPUIx5FAiUje7Q-BA"
@@ -82,7 +82,7 @@
     <h3><a href="https://www.linkedin.com/learning/instructors/joe-casabona" target="_blank">Joe Casabona</a></h3>
     <h4>Course Developer, Founder of Creator Courses</h4>
   </div>
-</section>
+</div>
 ### Course Details
 
 - Course Duration: 1h 23m
